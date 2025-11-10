@@ -1,0 +1,8 @@
+name: chartdb
+
+services:
+  app:
+    image: ghcr.io/chartdb/chartdb:latest
+    container_name: chartdb-app
+    ports:
+      - 8020:80
